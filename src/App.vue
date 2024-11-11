@@ -1,15 +1,17 @@
 <script>
 import Alberto from './components/Alberto.vue'
+import Diego from './components/Diego.vue'
 export default {
   name: 'App',
   components: {
-    Alberto
+    Alberto,
+    Diego,
   }
 }
 </script>
 
 <template>
-  <Alberto />
+  <Diego />
 </template>
 
 <style scoped>
